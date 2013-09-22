@@ -2,9 +2,9 @@ organization := "at.ait.dme.forcelayout"
 
 name := "scala-force-layout"
 
-version := "0.4.0"
+version := "0.5.0-SNAPSHOT"
 
-scalaVersion := "2.10.1"
+scalaVersion := "2.10.2"
 
 publishMavenStyle := true
 
