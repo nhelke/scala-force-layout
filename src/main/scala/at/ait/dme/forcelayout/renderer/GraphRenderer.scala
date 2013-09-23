@@ -21,6 +21,7 @@ private[renderer] trait GraphRenderer {
     })
   }
 
+  @deprecated("Use var nodePainter directly")
   def setNodePainter(painter: (Seq[Node2D], Graphics2D) => Unit) =
     nodePainter = painter
 
@@ -33,6 +34,7 @@ private[renderer] trait GraphRenderer {
     })
   }
 
+  @deprecated("Use var edgePainter directly")
   def setEdgePainter(painter: (Seq[Edge2D], Graphics2D) => Unit) =
     edgePainter = painter
 
